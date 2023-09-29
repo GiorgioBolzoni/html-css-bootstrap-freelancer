@@ -9,5 +9,8 @@
     background-color: var(--color-bg-green);
 }
 .my-bg-nav{
-    
+    background-color: var(--color-bg-nav);
+}
+.my-bg-top-footer{
+    background-color: var(--color-bg-footer);
 }

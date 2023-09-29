@@ -9,21 +9,27 @@
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
-    <header class="bg-dark text-light">
+    <header class="my-bg-nav text-light py-3">
         <nav class="container">
             navbar
         </nav>
     </header>
     <main>
-        <section class="my-bg-green">
-            <div class="container text-light text-center">Hero</div>
+        <section class="my-bg-green py-4">
+            <div class="container text-light text-center d-flex justify-content-center">
+                <div class="w-25 card-img">
+                    <img src="img/avatar.svg" alt="avatar">
+                </div>
+            </div>
         </section>
-        <section class="bg-white">
+        <section class="bg-white py-4">
             <div class="container text-center">
                 <h2>PORTFOLIO</h2>
                 <div class="star"></div>
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 border">1</div>
+                    <div class="col-12 col-md-6 col-lg-4 border">1
+                        <!-- <div class="p-1 bg-dark card-img">1</div> -->
+                    </div>
                     <div class="col-12 col-md-6 col-lg-4  border">1</div>
                     <div class="col-12 col-md-6 col-lg-4  border">1</div>
                     <div class="col-12 col-md-6 col-lg-4  border">1</div>
@@ -32,26 +38,31 @@
                 </div>
             </div>
         </section>
-        <section class="my-bg-green">
-            <div class="container text-center text-light">
-                <h2>ABOUT</h2>
-                <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse in ducimus repellendus est voluptate eius voluptatibus sapiente quis provident!</div>
-                <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse in ducimus repellendus est voluptate eius voluptatibus sapiente quis provident!</div>
+        <section class="my-bg-green py-4">
+            <div class="container text-light">
+                <h2 class="text-center">ABOUT</h2>
+                <div class="star"></div>
+                <div class="d-flex flex-column flex-md-row justify-content-md-between">
+                    <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse in ducimus repellendus est voluptate eius voluptatibus sapiente quis provident!</div>
+                    <div class="col-12 col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse in ducimus repellendus est voluptate eius voluptatibus sapiente quis provident!</div>
+                </div>
             </div>
         </section>
-        <section class="bg-white">
+        <section class="bg-white py-4">
             <div class="container text-center">
-                contatti <!--LASCIARE STARE-->
+                <h2>CONTATTI</h2> 
+                <div class="star"></div><!--LASCIARE STARE-->
+                <div>form</div>
             </div>
         </section>
     </main>
     <footer class="text-light text-center">
-        <div class="top-footer bg-secondary">
+        <div class="top-footer my-bg-top-footer py-3">
             <div class="container">
                 footer top
             </div>
         </div>
-        <div class="bottom-footer bg-dark">
+        <div class="bottom-footer my-bg-nav py-3">
             <div class="container">
                 footer bottom
             </div>
