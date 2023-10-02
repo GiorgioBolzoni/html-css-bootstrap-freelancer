@@ -24,6 +24,9 @@
 .my-bg-green{
     background-color: var(--color-bg-green);
 }
+.text-green{
+	color: #1abc9c;
+}
 .my-bg-nav{
     background-color: var(--color-bg-nav);
 }
@@ -68,4 +71,13 @@
 	color: white;
 	font-size: 5em;
 	font-weight: bold;
+}
+.my-icon-card{
+	width: 60px;
+	height: 60px;
+	font-size: 2em;
+}
+.size-1-5em{
+	font-size: 1.5em;
+	font-weight: 300;
 }
