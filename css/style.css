@@ -30,8 +30,15 @@
 .my-bg-nav{
     background-color: var(--color-bg-nav);
 }
+
+.my-star-dark-lines{
+	background-color: var(--color-bg-nav);
+}
 .my-bg-top-footer{
     background-color: var(--color-bg-footer);
+}
+h2{
+	margin-bottom: 20px;
 }
 #hero img{
 	width: 100%;
@@ -44,6 +51,17 @@
 	display: block;
 	width: 15%;
 	background-color: white;
+	height: 3px;
+	margin: 0 10px;
+}
+.my-star-dark{
+    color: var(--color-bg-nav);
+}
+.my-star-dark:after, .my-star-dark:before{
+	content: '';
+	display: block;
+	width: 15%;
+	background-color:var(--color-bg-nav);
 	height: 3px;
 	margin: 0 10px;
 }
@@ -73,9 +91,9 @@
 	font-weight: bold;
 }
 .my-icon-card{
-	width: 60px;
-	height: 60px;
-	font-size: 2em;
+	width: 50px;
+	height: 50px;
+	font-size: 1.5em;
 }
 .size-1-5em{
 	font-size: 1.5em;
