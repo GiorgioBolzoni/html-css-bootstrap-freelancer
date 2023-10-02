@@ -15,31 +15,57 @@
         </nav>
     </header>
     <main>
-        <section class="my-bg-green py-4">
-            <div class="container text-light text-center d-flex align-items-center flex-column">
-                <div class="w-25 card-img">
-                    <img src="img/avatar.svg" alt="avatar">
+        <section class="my-bg-green py-4" id="hero">
+            <div class="container text-light text-center d-flex flex-column text-uppercase">
+                <div class=" d-flex justify-content-center w-100">
+                    <div class="my-hero-img">
+                        <img src="img/avatar.svg" alt="avatar">
+                    </div>
                 </div>
                 <h1 class="py-2">START BOOTSTRAP</h1>
-                <div class="star"></div>
-                <div class="my-2">
-                    GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                <div class="my-star d-flex justify-content-center align-items-center mb-4">
+                    <i class="fa-solid fa-star"></i>
                 </div>
+                <h5 class="display-6">
+                    GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                </h5>
             </div>
         </section>
-        <section class="bg-white py-4">
+        <section class="bg-white py-4" id="portfolio">
             <div class="container text-center">
                 <h2>PORTFOLIO</h2>
                 <div class="star"></div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 border">1
-                        <!-- <div class="p-1 bg-dark card-img">1</div> -->
+                <div class="row gy-4">
+                    <div class="col-12 col-md-6 col-lg-4 card border-0">
+                        <div class="my-img-container">
+                            <img src="img/cabin.png" alt="img-1">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4  border">1</div>
-                    <div class="col-12 col-md-6 col-lg-4  border">1</div>
-                    <div class="col-12 col-md-6 col-lg-4  border">1</div>
-                    <div class="col-12 col-md-6 col-lg-4  border">1</div>
-                    <div class="col-12 col-md-6 col-lg-4  border">1</div>
+                    <div class="col-12 col-md-6 col-lg-4 card border-0">
+                        <div class="my-img-container">
+                            <img src="img/cake.png" alt="img-2">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 card border-0">
+                        <div class="my-img-container">
+                            <img src="img/circus.png" alt="img-2">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 card border-0">
+                        <div class="my-img-container">
+                            <img src="img/game.png" alt="img-4">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 card border-0">
+                        <div class="my-img-container">
+                            <img src="img/safe.png" alt="img-5">
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 card border-0">
+                        <div class="my-img-container">
+                            <img src="img/submarine.png" alt="img-6">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -64,17 +90,42 @@
             </div>
         </section>
         <section class="bg-white py-4">
-            <div class="container text-center">
+            <div class="container">
                 <h2>CONTATTI</h2> 
                 <div class="star"></div><!--LASCIARE STARE-->
-                <div>form</div>
+                <div>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control-plaintext border-bottom" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control-plaintext border-bottom" placeholder="Email">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="number" class="form-control-plaintext border-bottom" placeholder="Phone Number">
+                        </div>
+
+                        <div class="mb-3">
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Scrivi qui" class="form-control-plaintext border-bottom" ></textarea>
+                        </div>
+                        <button type="submit" class="btn my-btn-color">Send</button>
+                      </form>
+                </div>
             </div>
         </section>
     </main>
     <footer class="text-light text-center">
         <div class="top-footer my-bg-top-footer py-3">
             <div class="container">
-                footer top
+                <div class="row">
+                    <di class="col-12 col-md-4 border">
+                        <h5 class="display-6">LOCATION</h5>
+                        <div>2215 John Daniel Drive Clark, MO 54243</div>
+                    </di>
+                    <di class="col-12 col-md-4 border">1</di>
+                    <di class="col-12 col-md-4 border">1</di>
+                </div>
             </div>
         </div>
         <div class="bottom-footer my-bg-nav py-3">

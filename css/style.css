@@ -5,6 +5,22 @@
 	--color-primary: #ffffff;
 	--color-secondary: #333333;
 }
+.my-btn-color{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #1abc9c;
+    --bs-btn-border-color: #1abc9c;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #14977d;
+    --bs-btn-hover-border-color: #14977d;
+    --bs-btn-focus-shadow-rgb: #05342b;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #14977d;
+    --bs-btn-active-border-color: #14977d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0e6856;
+    --bs-btn-disabled-border-color: #0e6856;
+}
 .my-bg-green{
     background-color: var(--color-bg-green);
 }
@@ -13,4 +29,43 @@
 }
 .my-bg-top-footer{
     background-color: var(--color-bg-footer);
+}
+#hero img{
+	width: 100%;
+}
+.my-hero-img{
+	width: 250px;
+}
+.my-star:after, .my-star:before{
+	content: '';
+	display: block;
+	width: 15%;
+	background-color: white;
+	height: 3px;
+	margin: 0 10px;
+}
+#portfolio img{
+	width: 100%;
+	display: block;
+}
+.my-img-container{
+	overflow: hidden;
+	border-radius: 10px;
+	position: relative;
+	cursor: pointer;
+}
+.my-img-container:hover:after{
+	content: "+";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #20c9965e;
+	color: white;
+	font-size: 5em;
+	font-weight: bold;
 }
